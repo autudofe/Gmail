@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #fff; min-height: 100%;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
+    <meta name="viewport" content="width=device-width">  
+    <style>
+@media only screen and (max-width:650px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:650px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:650px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:650px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container,table.menu {
+    width: 100% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column,table.body .column .column,table.body .column .columns,table.body .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.body img,table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand {
+    width: 100% !important;
+  }
+}
+</style>
+</head>
+
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+
+
+    <table class="body" style="Margin: 0; background: #fff; border-collapse: collapse; border-spacing: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+        <tr style="padding: 0; text-align: left; vertical-align: top;">
+            <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <center data-parsed style="min-width: 650px; width: 100%;">
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="28pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 28pxpx; font-weight: 400; hyphens: auto; line-height: 28pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="qwe small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <a href="https://divan.tv/" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class="float-center" src="Images\logo.png" alt="Divan.tv" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>                   
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="0pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 0pxpx; font-weight: 400; hyphens: auto; line-height: 0pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img src="Images\first.jpg" alt style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-decoration: none; width: auto;">
+                                </a>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="4pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 4pxpx; font-weight: 400; hyphens: auto; line-height: 4pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-8 columns first" valign="middle" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 433.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="text-left middle-text small-text-center" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Divan.TV</b> - это современный сервис интерактивного телевидения, который расширяет возможности просмотра видео. Попробуйте прямо сейчас!
+ 
+                                </p>
+                            </th></tr></table></th>
+                            <th class="small-12 large-4 columns last" valign="middle" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 216.66667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class="float-center" src="Images\button3.png" alt="Отримати" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                            </th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="0pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 0pxpx; font-weight: 400; hyphens: auto; line-height: 0pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" valign="middle" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="text-left middle-text small-text-center" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                                   После 14-дневного бесплатного периода у вас будет возможность подключиться к акционным тарифам от 1 грн.
+                                </p>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 5pxpx; font-weight: 400; hyphens: auto; line-height: 5pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                               
+                                <img src="Images\line.png" alt style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-decoration: none; width: auto;">
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 30pxpx; font-weight: 400; hyphens: auto; line-height: 30pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" valign="middle" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <h2 class="text-center main-heading" style="Margin: 0; Margin-bottom: 10px; color: #000; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 24px; font-weight: 400; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: center; text-transform: uppercase; word-wrap: normal;"><b>Подключившись к DIVAN.TV, ВЫ ПОЛУЧИТЕ:</b></h2>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" valign="middle" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <ul>
+                                    <li class="text-left middle-text">Возможность смотреть телевидение <b>на любом устройстве:</b> от <b>Смарт ТВ до мобильного телефона;</b></li>
+                                    <br>
+                                    <li class="text-left middle-text"><b>200+</b> различных телеканалов и <b>тысячи</b> фильмов в кинотеатре;</li>
+                                    <br>
+                                    <li class="text-left middle-text">Просмотр <b>передач, фильмов, шоу в записи,</b> если вы не успели посмотреть прямой эфир;</li>
+                                    <br>
+                                    <li class="text-left middle-text">Вы сможете поставить <b>эфир на паузу</b> или воспользоваться <b>перемоткой</b> передачи или фильма;</li>
+                                    <br>
+                                    <li class="text-left middle-text">Подключение до <b>9 различных устройств:</b> возможность подключить себя, родных и близких <b>без доплат;</b></li>
+                                    <br>
+                                    <li class="text-left middle-text">Создавать <b>собственные списки</b> любимых каналов и фильмов.</li>
+                                </ul>
+
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-2 large-3 columns first" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 162.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+
+                            </th></tr></table></th>
+                            <th class="small-8 large-6 columns" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 325px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class="float-center" src="Images\button-top.png" alt="ПІДКЛЮЧИТИСЬ" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                            </th></tr></table></th>
+                             <th class="small-2 large-3 columns last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 162.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+
+                            </th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="0pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 0pxpx; font-weight: 400; hyphens: auto; line-height: 0pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class="float-center" src="Images\part3.png" alt style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+
+
+
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pxpx; font-weight: 400; hyphens: auto; line-height: 10pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                               
+                                <img src="Images\line.png" alt style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-decoration: none; width: auto;">
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 15pxpx; font-weight: 400; hyphens: auto; line-height: 15pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+                  
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-6 columns first" valign="top" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 325px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="text-center" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;"><b>Легальный сервис</b></p>
+                                <ul>
+                                    <li class="text-left middle-text">Более 6 миллионов пользователей во всем мире.</li>
+                                    <br>
+                                    <li class="text-left middle-text">Полностью легальный контент.</li>
+                                    <br>
+                                    <li class="text-left middle-text">Без доплат за отдельные фильмы или передачи.</li>
+                                </ul>
+                                
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class="div1 float-center" src="Images\div1.jpg" alt style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; padding-right: 5px; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 20pxpx; font-weight: 400; hyphens: auto; line-height: 20pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                            </th></tr></table></th>
+
+                            <th class="small-12 large-6 columns last" valign="top" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 325px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+
+                               
+                                <p class=" text-center" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;"><b>Постоянное обновление контента!</b></p>
+                                <ul>
+                                    <li class="text-left middle-text">Премиальные телеканалы.</li>
+                                    <br>
+                                    <li class="text-left middle-text">Библиотека фильмов - 50000 в год.</li>
+                                    <br>
+                                    <li class="text-left middle-text">Культовые сериалы от HBO.</li>
+                                </ul>
+                                <table class="spacer show-for-large" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 5pxpx; font-weight: 400; hyphens: auto; line-height: 5pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                                <a href="https://divan.tv/chto-takoe-divan-tv" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                    <img class=" div2 float-center " src="Images\div2.jpg" alt style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; padding-left: 5px; text-align: center; text-decoration: none; width: auto;">
+                                </a>
+                                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 20pxpx; font-weight: 400; hyphens: auto; line-height: 20pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                            </th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+
+                  
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                               
+                                <img src="Images\line.png" alt style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-decoration: none; width: auto;">
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+
+                            <th class="qwe small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <center data-parsed style="min-width: 650px; width: 100%;">
+                                    <table align="center" class="menu float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: auto !important;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;">
+                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #444; float: none; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 10px; text-align: center;"><a href="https://www.facebook.com/DIVAN.TV/" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                            <img class="float-right" src="Images\Facebook.png" alt="Facebook" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; float: right; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: right; text-decoration: none; width: auto;">
+                                        </a></th>
+                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #444; float: none; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 10px; text-align: center;"><a href="https://t.me/kino_divan" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                            <img class="float-right" src="Images\Telegram.png" alt="Telegram" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; float: right; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: right; text-decoration: none; width: auto;">
+                                        </a></th>
+                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #444; float: none; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 10px; text-align: center;"><a href="https://itunes.apple.com/ua/app/divan-tv-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-%D0%B8-%D1%82%D0%B2-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD/id666753485?l=ru&mt=8" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                            <img class="float-center" src="Images\AppStore.png" alt="AppStore" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                        </a></th>
+                                        <th class="menu-item float-center" style="Margin: 0 auto; color: #444; float: none; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 10px; text-align: center;"><a href="https://play.google.com/store/apps/details?id=divan.tv.DivanTV&hl=ru" style="Margin: 0; color: #00a8ba; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                                            <img class="float-center" src="Images\GooglePlay.png" alt="GooglePlay" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border: 0; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 0 !important; text-align: center; text-decoration: none; width: auto;">
+                                        </a></th>
+                                    </tr></table></td></tr></table>
+                                </center>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 15pxpx; font-weight: 400; hyphens: auto; line-height: 15pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+
+                    <table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 650px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="text-center bottom-text" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">Возникли вопросы? Техподдержка Divan.TV</p>
+                                <p class="text-center bottom-text" style="Margin: 0; Margin-bottom: 10px; color: #444; font-family: verdana; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">support@divan.tv</p>
+                            </th>
+<th class="expander" style="Margin: 0; color: #444; font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+
+                </center>
+            </td>
+        </tr>
+    </table>
+</body></html>
